@@ -1,0 +1,19 @@
+/* Asterisco para indicar que TODO MUNDO dentro do doc vai receber a fonte. */
+*{
+    font-family: 'Zen Dots', cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8fc;  /* cria divisão de cores na aparência */
+}
+
+/* 1rem: Relativo ao tamanho da fonte. 
+Se em tal dispositivo a fonte é maior, o espaçamento tbm será. */
+.content{
+    padding: 1rem;
+    background-color: white; 
+    height: 100vh;  
+    width: 100vw;
+}
+
